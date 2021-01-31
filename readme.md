@@ -1,10 +1,12 @@
 ## Testing Go Rest API using ZeroCode
 
-It's super simple with [ZeroCode](https://github.com/authorjapps/zerocode) to write test cases in just few minutes to test any api endpoints exposed over http.
+It's super simple with <a href="https://github.com/authorjapps/zerocode" target="_blank">ZeroCode</a> to write test cases in just few minutes to test any api endpoints exposed over http.
 
 This project covers testing of Rest API written in GO.
 
-Go Rest Api code can be found here at [Go-Rest-Api-using-Gorilla-Mux](https://github.com/BeTheCodeWithYou/go-rest-api/tree/feature/go-rest-gorilla)
+Go Rest Api code can be found here at 
+<a href="https://github.com/BeTheCodeWithYou/go-rest-api/tree/feature/go-rest-gorilla" target="_blank">Go-Rest-Api-using-Gorilla-Mux</a>
+
 
 Create Test Project
 
