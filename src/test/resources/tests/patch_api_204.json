@@ -1,0 +1,18 @@
+{
+    "scenarioName": "Validate the PATCH api",
+    "steps": [
+        {
+            "name": "partial product update",
+            "url": "/products/1",
+            "method": "PATCH",
+            "request": {
+                "body": {
+                    "colour": "GREEN"
+                }
+            },
+            "verify": {
+                "status": 204
+            }
+        }
+    ]
+}

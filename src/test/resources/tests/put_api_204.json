@@ -1,0 +1,20 @@
+{
+    "scenarioName": "Validate the PUT api",
+    "steps": [
+        {
+            "name": "update product",
+            "url": "/products/1",
+            "method": "PUT",
+            "request": {
+                "body": {
+                    "sport": "Tennis",
+                    "brand": "Nike",
+                    "colour": "Blue"
+                }
+            },
+            "verify": {
+                "status": 204
+            }
+        }
+    ]
+}

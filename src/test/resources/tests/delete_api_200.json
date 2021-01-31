@@ -1,0 +1,15 @@
+{
+    "scenarioName": "Validate the DELETE api",
+    "steps": [
+        {
+            "name": "delete a product",
+            "url": "/products/2",
+            "method": "DELETE",
+            "request": {
+            },
+            "verify": {
+                "status": 200
+            }
+        }
+    ]
+}

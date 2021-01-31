@@ -1,0 +1,20 @@
+{
+    "scenarioName": "Validate the GET api",
+    "steps": [
+        {
+            "name": "get_product_details",
+            "url": "/products",
+            "method": "GET",
+            "request": {
+            },
+            "verify": {
+                "status": 200,
+                "body":[
+                    {
+                        "id" : "$IS.NOTNULL"
+                    }
+                ] 
+            }
+        }
+    ]
+}

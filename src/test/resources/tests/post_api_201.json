@@ -1,0 +1,20 @@
+{
+    "scenarioName": "Validate the POST api",
+    "steps": [
+        {
+            "name": "add new product",
+            "url": "/products",
+            "method": "POST",
+            "request": {
+                "body": {
+                    "sport": "Hiking",
+                    "brand": "NorthFace",
+                    "Colour": "Black"
+                }
+            },
+            "verify": {
+                "status": 201
+            }
+        }
+    ]
+}
